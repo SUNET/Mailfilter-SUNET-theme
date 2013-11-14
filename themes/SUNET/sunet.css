@@ -416,3 +416,14 @@ input.hilite:disabled {
 input.hilite:focus {
     	background-color: #FFFFD0;
 }
+
+ul.guides {
+    display: inline;
+    list-style: none;
+}
+
+ul.guides li {
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+}

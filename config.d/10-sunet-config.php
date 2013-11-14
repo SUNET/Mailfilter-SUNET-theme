@@ -2,7 +2,7 @@
 global $Config;
 
 # The Shibboleth URL for login
-$Config['ShibbolethURL'] = 'https://mailfilter.sunet.se/Shibboleth.sso/WAYF/ds.sunet.se';
+$Config['ShibbolethURL'] = 'https://mailfilter.sunet.se/Shibboleth.sso/DS/ds.sunet.se';
 
 # The first part of the target URL (https://machine.example.org/)
 $Config['ShibbolethTarget'] = 'https://mailfilter.sunet.se';
