@@ -58,7 +58,7 @@ if (!empty($errs)) {
 <?php
 	$swamid_url = conf('ShibbolethURL');
 	$text = conf('ShibbolethLoginMsg');
-	$target = conf('ShibbolethTarget') . my_uri(0);
+	$target = conf('ShibbolethTarget') . $_SERVER['REQUEST_URI'];
 	$full_uri = append_param($swamid_url, 'target', $target);
 	print("<a href=\"$full_uri\">$text</a>\n");
 
