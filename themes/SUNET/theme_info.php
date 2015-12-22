@@ -5,6 +5,7 @@ function SUNET_config() {
 	'menu_location' => L("above"),
 	'page_template' => 'page_template.php',
 	'login_template' => 'login_template.php',
+	'simple_template' => 'simple_gui.php',
 	'files' => 'themes/SUNET'
 	);
 }
